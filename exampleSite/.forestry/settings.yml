@@ -32,13 +32,6 @@ sections:
   templates:
   - person
 
-- type: directory
-  path: exampleSite/content/french/products
-  label: Products (fr)
-  create: documents
-  match: "**/*"
-  templates:
-  - product
 
 - type: heading
   label: Contact
