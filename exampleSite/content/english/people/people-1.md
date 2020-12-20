@@ -2,13 +2,10 @@
 title: "Professor Jagath C Rajapakse"
 date: 2019-10-17T11:22:16+06:00
 images: 
-  - "images/people/showcase-1.png"
+  - "images/people/person-1.png"
 # meta description
-description : "this is meta description"
+description : "Professor"
 
-# product variation
-colors : ["black","white","gray"]
-sizes : ["small","medium","large"]
 
 draft: false
 ---
