@@ -88,8 +88,6 @@ author = "Charlene Ong"
 currency = "$"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
-# snipcart public api key
-snipcart_api = "ZDgxY2ZiM2EtMWRmMi00M2ZkLWI1MDAtNzA2MDc0Y2Q1MzJlNjM3MTAzNDIwOTQ1NDA4NjM4"
 
 # Preloader
 [params.preloader]
@@ -110,5 +108,5 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 # copyright
-copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
+copyright = "Made with love by Charlene Ong. Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
 
