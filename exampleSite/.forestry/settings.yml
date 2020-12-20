@@ -12,10 +12,10 @@ sections:
   label: Homepage (en)
 
 - type: heading
-  label: Blog Post
+  label: News
 - type: directory
-  path: exampleSite/content/english/blog
-  label: Post
+  path: exampleSite/content/english/news
+  label: News
   create: documents
   match: "**/*"
   new_doc_ext: '20191203072044'
@@ -32,6 +32,27 @@ sections:
   templates:
   - person
 
+- type: heading
+  label: Events
+- type: directory
+  path: exampleSite/content/english/events
+  label: Events
+  create: documents
+  match: "**/*"
+  new_doc_ext: '20191203072044'
+  templates:
+  - post
+
+- type: heading
+  label: Facilities
+- type: directory
+  path: exampleSite/content/english/facilities
+  label: Facilities
+  create: documents
+  match: "**/*"
+  new_doc_ext: '20191203072044'
+  templates:
+  - post
 
 - type: heading
   label: Contact
@@ -46,13 +67,6 @@ sections:
   label: All Page (en)
   create: all
   match: "**/*"
-
-- type: directory
-  path: exampleSite/content/french
-  label: All Page (fr)
-  create: all
-  match: "**/*"
-
 
 - type: heading
   label: Configuration
