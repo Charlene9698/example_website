@@ -81,6 +81,11 @@ name = "Opportunities"
 url = "opportunities"
 weight = 8
 
+[[menu.main]]
+name = "Products"
+url = "product"
+weight = 9
+
 
 ########################### Default parameters ##########################
 [params]
