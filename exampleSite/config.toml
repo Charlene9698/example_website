@@ -79,7 +79,7 @@ weight = 7
 
 ########################### Default parameters ##########################
 [params]
-logo = "images/logo.png"
+logo = "images/ntu_logo.png"
 logo_width = "100px"
 # Meta data
 description = "This is meta description"
