@@ -7,9 +7,8 @@ The BioInformatics Research Centre (BIRC) is a research centre under the School 
 The mission of BIRC is to provide the interdisciplinary environment and training for students and researchers to engage in leading and cutting edge research in bioinformatics, and thereby become a part of the life sciences workforce in Singapore and elsewhere.
 BIRC also facilitates the teaching and research projects of the M.Sc. (Bioinformatics) offered by the School of Computer Engineering and Ph.D. (Computation and Systems Biology) offered by Singapore - MIT Alliance."
 
-  image : "images/home.png"
+  image : "images/home.jpg"
   button:
    enable : true
-   label : "View Latest Updates"
-   link : "updates"
-
+   label : "View Latest News"
+   link : "news"
