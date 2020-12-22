@@ -4,7 +4,7 @@ description : "this is a meta description"
 draft: false
 ---
 
-NTU offers graduate programs by research leading towards the degrees of Master of Engineering and Doctor of Philosophy. The candidates must have a four-year university degree for admission as full-time candidate for a higher degree. Candidates with First Class Honours or Second Class (Upper Division) Honours or its equivalent are considered for scholarships.
+<!-- NTU offers graduate programs by research leading towards the degrees of Master of Engineering and Doctor of Philosophy. The candidates must have a four-year university degree for admission as full-time candidate for a higher degree. Candidates with First Class Honours or Second Class (Upper Division) Honours or its equivalent are considered for scholarships.
 
 For more details, please visit
 http://admissions.ntu.edu.sg/graduate/R-Programs/Pages/default.aspx
@@ -19,5 +19,5 @@ Block NS4-04-33
 Singapore 639798
 Email:birc@ntu.edu.sg
 
-The School of Computer Engineering also offers M.Sc. in Bioinformatics, the details of which could be found at: http://sce.ntu.edu.sg/CurrentStudents/Graduate/Pages/msc-bioinformatics-intro.aspx
+The School of Computer Engineering also offers M.Sc. in Bioinformatics, the details of which could be found at: http://sce.ntu.edu.sg/CurrentStudents/Graduate/Pages/msc-bioinformatics-intro.aspx -->
 
