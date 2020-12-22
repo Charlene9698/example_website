@@ -1,6 +1,5 @@
 ---
 title: "Journal Club"
-date: 2019-10-17T11:22:16+06:00
 image: "images/news1.jpg"
 description : "this is a meta description"
 draft: false
