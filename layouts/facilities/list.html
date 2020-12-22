@@ -7,14 +7,14 @@
         <h1>{{.Title}}</h1>
       </div>
     </div>
-    {{ range $index, $element := (where .Site.RegularPages "Section" "opportunities") }}
+    {{ range $index, $element := (where .Site.RegularPages "Section" "facilities") }}
     <div class="row mb-40">
       <div class="col-md-12 text-center mb-10 mb-lg-0">
         <img class="img-fluid" src="{{ .Params.image | absURL }}" alt="">
       </div>
       <div class="col-md-12 align-self-center text-center text-md-left">
         <div class="content">
-          <h4 class="subheading"><a class="link-title" href="{{.Permalink}}">{{ .Title | markdownify }}</a></h4>
+          <h4 class="subheading">{{ .Title | markdownify }}</h4>
           <div class="content">
             {{.Content}}
           </div>
