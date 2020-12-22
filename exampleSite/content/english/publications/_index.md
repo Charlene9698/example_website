@@ -1,4 +1,11 @@
 ---
+title: "Publications"
+description : "this is a meta description"
+draft: false
+---
+
+
+<!-- ---
 title: Publications
 
 # View.
@@ -12,4 +19,4 @@ view: 4
 header:
   caption: ""
   image: ""
----
+--- -->
