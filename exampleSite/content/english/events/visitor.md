@@ -6,10 +6,10 @@ draft: false
 ---
 |Date | Visitors |
 |-----|----------|
-|5 August 2009|Prof.Mahesan Niranjan, University of Southampton,Southampton England <br \> Seminar:Aspects of inference from transcription |
+|5 August 2009|Prof.Mahesan Niranjan, University of Southampton,Southampton England <br /> Seminar:Aspects of inference from transcription |
 |25 Mar 2009 | Ukranian Delegation |
 |29 Apr 2008 | Delegates from Arizona State University (ASU):
-<br \>
+<br />
 <ol>
 <li>Dr. Deirdre Meldrum, Dean, Ira A Fulton School of Engineering</li>
 <li>Dr. Sethuraman Panchanathan, Director, School of Computing and Informatics</li>
