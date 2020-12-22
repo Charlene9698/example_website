@@ -1,6 +1,6 @@
 ################################### Default Configuration ############################
 baseurl = "http://examplesite.com/"
-title = "NTU Bioinformatic Lab"
+title = "NTU Bioinformatics Lab"
 theme = "vex-hugo"
 # post excert
 summarylength = "20"
