@@ -12,17 +12,6 @@ sections:
   label: Homepage (en)
 
 - type: heading
-  label: News
-- type: directory
-  path: exampleSite/content/english/news
-  label: News
-  create: documents
-  match: "**/*"
-  new_doc_ext: '20191203072044'
-  templates:
-  - post
-
-- type: heading
   label: People
 - type: directory
   path: exampleSite/content/english/people
@@ -31,6 +20,17 @@ sections:
   match: "**/*"
   templates:
   - person
+
+- type: heading
+  label: Publications
+- type: directory
+  path: exampleSite/content/english/publications
+  label: Publications
+  create: documents
+  match: "**/*"
+  new_doc_ext: '20191203072044'
+  templates:
+  - post
 
 - type: heading
   label: Events
@@ -44,6 +44,18 @@ sections:
   - post
 
 - type: heading
+  label: News
+- type: directory
+  path: exampleSite/content/english/news
+  label: News
+  create: documents
+  match: "**/*"
+  new_doc_ext: '20191203072044'
+  templates:
+  - post
+
+
+- type: heading
   label: Facilities
 - type: directory
   path: exampleSite/content/english/facilities
@@ -55,10 +67,10 @@ sections:
   - post
 
 - type: heading
-  label: Publications
+  label: Opportunities
 - type: directory
-  path: exampleSite/content/english/publications
-  label: Publications
+  path: exampleSite/content/english/opportunities
+  label: Opportunities
   create: documents
   match: "**/*"
   new_doc_ext: '20191203072044'

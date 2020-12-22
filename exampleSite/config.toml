@@ -68,18 +68,19 @@ url = "news"
 weight = 5
 
 [[menu.main]]
-name = "Contact"
-url = "contact"
-weight = 6
-
-[[menu.main]]
 name = "Facilities"
 url = "facilities"
-weight = 7
+weight = 6
+
 
 [[menu.main]]
 name = "Opportunities"
 url = "opportunities"
+weight = 7
+
+[[menu.main]]
+name = "Contact"
+url = "contact"
 weight = 8
 
 
