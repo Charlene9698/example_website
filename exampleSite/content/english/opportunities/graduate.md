@@ -10,13 +10,13 @@ For more details, please visit
 http://admissions.ntu.edu.sg/graduate/R-Programs/Pages/default.aspx
 
 Interested candidates who wish to pursue graduate research in the areas interested to BIRC may also write to:
-
-BioInformatics Research Centre
-School of Computer Engineering
-Nanyang Technological University
-Block NS4-04-33
-50 Nanyang Avenue
-Singapore 639798
-Email:birc@ntu.edu.sg
+<br/>
+BioInformatics Research Centre<br/>
+School of Computer Engineering<br/>
+Nanyang Technological University<br/>
+Block NS4-04-33<br/>
+50 Nanyang Avenue<br/>
+Singapore 639798<br/>
+Email:birc@ntu.edu.sg<br/>
 
 The School of Computer Engineering also offers M.Sc. in Bioinformatics, the details of which could be found at: http://sce.ntu.edu.sg/CurrentStudents/Graduate/Pages/msc-bioinformatics-intro.aspx
