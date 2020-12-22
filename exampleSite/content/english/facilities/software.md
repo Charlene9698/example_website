@@ -3,6 +3,8 @@ title: "Software"
 description : "this is a meta description"
 draft: false
 ---
+|Software | Description|
+|---------|------------|
 |Bioconductor: | bioconductor is an open source and open development software project for the analysis and comprehension of genomic data.|
 |Blast: | basic local alignment search tool |
 |Autodock: | suite of automated docking tools that is designed to predict how small molecules, such as substrates or drug candidates, bind to a receptor of known 3D structure |
