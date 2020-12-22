@@ -1,6 +1,6 @@
 ---
 title: "Hardware Platforms"
-image: "images/facilities1.png"
+image: "images/img_server.jpg"
 description : "this is a meta description"
 draft: false
 ---
