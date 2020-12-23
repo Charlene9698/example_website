@@ -20,10 +20,9 @@
   <div class="container">
     <h2>Meet the Professors</h2>
     <div class="row">
-      
+      {{ range where .Pages.ByWeight ".Params.professor" true }}
       <div class="col-12 col-md-5 mb-2">
-
-        {{ range where .Pages.ByWeight ".Params.professor" true }}
+        
         <div class="team team-summary team-summary-large">
           
           {{ if .Params.image }}
@@ -48,8 +47,9 @@
           </div>
           
         </div>
-        {{ end }}
+        
       </div>
+      {{ end }}
     </div>
   </div>
 
