@@ -6,7 +6,7 @@
   {{ end }}
   <div class="team-meta">
 
-    <h2 class="team-name"><a href="{{.Permalink}}" class="link-title">{{.Title}}</a></h2>
+    <h2 class="team-name"><a href="{{.Permalink}}" class="link-title">{{.Title | markdownify}}</a></h2>
     <p class="team-description">{{ .Params.Jobtitle }}</p>
     {{ if .Params.Linkedinurl }}
     <a target="_blank" href="{{ .Params.Linkedinurl }}">LinkedIn</a> {{ end }}
@@ -16,4 +16,5 @@
   </div>
   <div class="team-content">    
     {{ .Content | truncate (.Site.Params.team.summary_large_truncate | default 200 ) "…" }}
+    <a href="{{ .Permalink }}" class="btn btn-main btn-main-sm">{{ i18n "read_more" }}</a>
   </div>
