@@ -5,7 +5,7 @@ image: "images/people/person-1.png"
 jobtitle : "Professor"
 linkedinurl: "https://www.linkedin.com/example2"
 googlescholars: "https://scholar.google.com.sg/citations?user=9WPWHiEAAAAJ&hl=en"
-promoted: true
+professor: true
 weight: 1
 
 

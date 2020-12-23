@@ -19,17 +19,26 @@
 
   <div class="container">
     <div class="row">
+      <h2>Meet the Professors</h2>
       <div class="col-12 col-md-6 mb-2">
-      {{ range where .Pages.ByWeight ".Params.promoted" true }}
+
+      {{ range where .Pages.ByWeight ".Params.professor" true }}
       {{ .Render "summary-large" }}
       {{ end }}
+      </div>
+      <h2>The Staff</h2>
+      <div class="col-12 col-md-6 mb-2">
+
+        {{ range where .Pages.ByWeight ".Params.staff" true }}
+        {{ .Render "summary-large" }}
+        {{ end }}
+        </div>
     </div>
-    </div>
-    <!-- <div class="row  pt-6 pb-6">
-      {{ range where .Pages.ByWeight ".Params.promoted" "!=" true}}
+    <div class="row  pt-6 pb-6">
+      {{ range where .Pages.ByWeight ".Params.student" true}}
       <div class="col-12 col-md-4 mb-3">{{ .Render "summary" }}</div>
       {{ end }}
-    </div> -->
+    </div>
   </div>
 </section>
 
