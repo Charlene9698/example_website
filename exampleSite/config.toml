@@ -38,6 +38,12 @@ link = "plugins/bootstrap/bootstrap.min.js"
 [[params.plugins.js]]
 link = "plugins/slick/slick.min.js"
 
+###################################### Taxonomies ######################################
+# taxonomies
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+
 
 ###################################### Navigation ######################################
 
