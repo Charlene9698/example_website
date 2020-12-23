@@ -8,9 +8,9 @@
         <div>
           <div class="d-flex">
             {{ if .Params.title }}
-            <img class="card-img-xs" src="{{ .Params.title | relURL }}" alt="{{ .name }}" />
+            <img class="card-img-xs" src="{{ .Params.title | relURL }}" />
             {{ end }}
-            <h5 class="card-title mb-0">{{ .name }}</h5>
+            <h5 class="card-title mb-0">{{ .Params.title }}</h5>
           </div>
           <div class="sub-title">
             <span>{{ .Params.authors }}</span>
