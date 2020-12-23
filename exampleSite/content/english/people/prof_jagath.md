@@ -1,11 +1,11 @@
 ---
 title: "Professor Jagath C Rajapakse"
-images: 
-  - "images/people/person-1.png"
+images: "images/people/person-1.png"
 # meta description
 jobtitle : "Professor"
 linkedinurl: "https://www.linkedin.com/example2"
 googlescholars: "https://scholar.google.com.sg/citations?user=9WPWHiEAAAAJ&hl=en"
+promoted: true
 weight: 1
 
 
