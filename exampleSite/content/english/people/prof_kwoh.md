@@ -6,7 +6,7 @@ jobtitle : "Professor"
 linkedinurl: "https://www.linkedin.com/example2"
 googlescholars: "https://scholar.google.com.sg/citations?user=9WPWHiEAAAAJ&hl=en"
 professor: true
-weight: 1
+weight: 2
 
 
 draft: false

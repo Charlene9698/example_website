@@ -5,7 +5,7 @@ image: "images/people/person-1.png"
 jobtitle: "Senior Executive"
 linkedinurl: "https://www.linkedin.com/example2"
 staff: true
-weight: 2
+weight: 3
 
 draft: false
 ---
