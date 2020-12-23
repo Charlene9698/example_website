@@ -91,6 +91,16 @@ sections:
   create: all
   match: "**/*"
 
+buttons:
+- name: All
+  filter: "all"
+- name: Hacking
+  filter: "hacking"
+- name: Computers
+  filter: "computers"
+- name: Software
+  filter: "software"
+
 - type: heading
   label: Configuration
 - type: document
