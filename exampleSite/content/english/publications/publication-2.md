@@ -44,9 +44,8 @@ featured: true
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
-url: "https://www.linkedin.com/example2"
 
-url_pdf: ''
+url_paper: "https://www.linkedin.com/example2"
 url_code: ''
 url_dataset: ''
 url_poster: ''
