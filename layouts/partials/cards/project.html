@@ -2,15 +2,15 @@
   class="col-sm-12 col-md-12 col-lg-12 p-2 filtr-item"
   data-category='all, {{ delimit  .Params.tags ","}}'
 >
-  <div class="card mt-1">
+  <div class="card">
     <div class="card">
       <a class="card-header" href="{{ .Params.Url_paper }}">
         <div>
           <div class="d-flex">
             {{ if .Params.title }}
-            <img class="card-img-xs" src="{{ .Params.title | relURL }}" />
-            {{ end }}
             <h5 class="card-title mb-0">{{ .Params.title }}</h5>
+            {{ end }}
+            
           </div>
           <div class="sub-title">
             <span>{{ .Params.authors }}</span>
