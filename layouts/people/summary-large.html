@@ -13,4 +13,4 @@
     <a target="_blank" href="https://twitter.com/{{ .Params.Googlescholars }}">Google Scholars</a> {{ end }}
 
   </div>
-  <div class="team-content">    {{ .Content | truncate (.Site.Params.team.summary_large_truncate | default 120 ) "…" }}</div>
+  <div class="team-content">    {{ .Content | truncate (.Site.Params.team.summary_large_truncate | default 200 ) "…" }}</div>
