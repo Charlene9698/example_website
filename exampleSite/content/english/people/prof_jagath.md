@@ -1,6 +1,6 @@
 ---
 title: "Professor Jagath C Rajapakse"
-images: "images/people/person-1.png"
+image: "images/people/person-1.png"
 # meta description
 jobtitle : "Professor"
 linkedinurl: "https://www.linkedin.com/example2"
