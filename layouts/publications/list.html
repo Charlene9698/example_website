@@ -8,8 +8,6 @@
       </div>
     </div>
     {{ range $index, $element := (where .Site.RegularPages "Section" "publications") }}
-<!-- 
-    {{range $element)}} -->
     <div class="row mb-40">
       <div class="col-md-6 align-self-center text-center text-md-left">
         <div class="content">
@@ -19,7 +17,6 @@
         </div>
       </div>
     </div>
-    <!-- {{ end }} -->
     {{ end }}
   </div>
 </section>
