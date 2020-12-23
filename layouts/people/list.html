@@ -1,28 +1,33 @@
-{{ define "main" }}
+{{ define "body_classes" }}page-team-list{{ end }}
 
-<section class="section gallery">
+{{ define "main" }}
+<div class="intro">
   <div class="container">
-    <div class="row">
-      <div class="col-12 text-center mb-5">
-        <h1 class="font-weight-bold">{{.Title}}</h1>
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+        {{ .Content }}
       </div>
-      {{ range (where .Site.RegularPages "Section" "people") }}
-      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-        <div class="block">
-          <div class="gallery-overlay">
-            <a href="{{ .Permalink }}" class="gallery-popup">
-              <i class="tf-ion-plus-round"></i>
-            </a>
-          </div>
-          <img class="img-fluid" src="{{range first 1 .Params.images}}{{.|absURL}}{{end}}" alt="{{.Title}}">
-        </div>
-        <div class="product-info">
-        <h4 class="mb-2"><a href="{{.Permalink}}" class="link-title">{{.Title}}</a></h4>
-        </div>
+      {{ if .Params.intro_image }}
+      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+        <img
+          class="intro-image{{ if .Params.intro_image_absolute }} intro-image-absolute{{ end }}{{ if .Params.intro_image_hide_on_mobile }} intro-image-hide-mobile{{ end }}"
+          src="{{ .Params.intro_image | relURL }}" />
       </div>
       {{ end }}
     </div>
   </div>
-</section>
+</div>
 
+<div class="container">
+  <div class="row">
+    {{ range where .Pages.ByWeight ".Params.promoted" true }}
+    <div class="col-12 col-md-6 mb-2">{{ .Render "summary-large" }}</div>
+    {{ end }}
+  </div>
+  <div class="row  pt-6 pb-6">
+    {{ range where .Pages.ByWeight ".Params.promoted" "!=" true}}
+    <div class="col-12 col-md-4 mb-3">{{ .Render "summary" }}</div>
+    {{ end }}
+  </div>
+</div>
 {{ end }}

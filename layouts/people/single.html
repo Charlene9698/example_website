@@ -1,25 +1,16 @@
-{{ define "main" }}
-
-<section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-5 mb-4 mb-md-0">
-        <!-- product image slider -->
-        <div class="product-image-slider">
-          
-          {{ range .Params.images }}
-          <div data-image="{{ . | absURL }}">
-            <img class="img-fluid w-100" src="{{ . | absURL }}" alt="product-image">
-          </div>
-          {{ end }}
-        </div>
-      </div>
-      <div class="col-lg-6 col-md-7 offset-lg-1">
-        <h1 class="mb-4">{{ .Title }}</h1>
-        <div class="content">{{.Content}}</div>
-      </div>
-    </div>
+<div class="team team-summary team-summary-large">
+  {{ if .Params.image }}
+  <div class="team-image">
+    <img alt="Photo of {{ .Title }}" class="img-fluid mb-2" src="{{ .Params.image | relURL }}" />
   </div>
-</section>
+  {{ end }}
+  <div class="team-meta">
+    <h2 class="team-name">{{ .Title }}</h2>
+    <p class="team-description">{{ .Params.Jobtitle }}</p>
+    {{ if .Params.Linkedinurl }}
+    <a target="_blank" href="{{ .Params.Linkedinurl }}">LinkedIn</a> {{ end }}
+    {{ if .Params.Twitterhandle }}
+    <a target="_blank" href="https://twitter.com/{{ .Params.Twitterhandle }}">Twitter</a> {{ end }}
 
-{{ end }}
+  </div>
+  <div class="team-content">    {{ .Content | truncate (.Site.Params.team.summary_large_truncate | default 120 ) "…" }}</div>
