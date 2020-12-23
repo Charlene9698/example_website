@@ -7,7 +7,7 @@
         <h1>{{.Title}}</h1>
       </div>
     </div>
-    {{ range $index, $element := (where .Site.Sections "Section" "publications") }}
+    {{ range $index, $element := (where .Site.RegularPages "Section" "publications") }}
 <!-- 
     {{range $element)}} -->
     <div class="row mb-40">

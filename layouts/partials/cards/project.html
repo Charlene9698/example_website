@@ -7,35 +7,25 @@
       <a class="card-header" href="{{ if .repo }}{{ .repo }}{{ else if .url }}{{ .url }}{{ else }}#{{ end }}">
         <div>
           <div class="d-flex">
-            {{ if .logo }}
-            <img class="card-img-xs" src="{{ .logo | relURL }}" alt="{{ .name }}" />
+            {{ if .Params.title }}
+            <img class="card-img-xs" src="{{ .Params.title | relURL }}" alt="{{ .name }}" />
             {{ end }}
             <h5 class="card-title mb-0">{{ .name }}</h5>
           </div>
           <div class="sub-title">
-            <span>{{ .role }}</span>
-            <span>{{ .timeline }}</span>
+            <span>{{ .Params.authors }}</span>
+            <span>{{ .Params.timeline }}</span>
           </div>
         </div>
       </a>
       <div class="card-body text-justify pt-1 pb-1">
-        <p>{{ .summary | markdownify }}</p>
+        <p>{{ .Params.summary | markdownify }}</p>
         <span class="float-right">
-          {{ if .repo }}
-          <a
-            class="github-button-inactive"
-            href="{{ .repo }}"
-            data-icon="octicon-standard"
-            data-show-count="true"
-            aria-label="Star {{ .name }}"
-            >Star</a
-          >
-          {{ else if .url }}
           <a
             class="btn btn-outline-info btn-sm mb-2"
             href="{{ .url }}"
             target="#"
-            >Details</a
+            >Link</a
           >
           {{ end }}
         </span>
