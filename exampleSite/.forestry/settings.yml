@@ -31,6 +31,7 @@ sections:
   new_doc_ext: '20191203072044'
   templates:
   - post
+  - button
 
 - type: heading
   label: Events
